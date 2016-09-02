@@ -9,7 +9,7 @@
         "removeComments": true,
         "moduleResolution": "node",
         "outDir": "built",
-        "rootDir": "."
+        "rootDir": "./app"
     },
     "exclude": [
         "node_modules",

@@ -1,3 +1,4 @@
+https://medium.com/front-end-hacking/angular-2-an-introduction-of-bootstrap-and-providers-1c60ffbb7604#.s95qjsz8d
 https://medium.com/front-end-hacking/angular-2-our-first-component-5f9ddbca4fe7#.bp3u3792f
 https://medium.com/@menezes.carlos/angular-2-setting-up-your-working-environment-52b985d1d341#.esnd4e9w9
 
