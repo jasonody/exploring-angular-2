@@ -11,7 +11,8 @@
       'rxjs': 'node_modules/rxjs'
     }
   });
-  System.import('built/boot');
+  System.import('built/main')
+    .then(null, console.error.bind(console));
   </script>
 </head>
 <body>
