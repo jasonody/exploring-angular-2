@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc.cmd -w",
     "lite": "lite-server",
-    "app": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "serve": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
     "typings": "typings"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/jasonody/exploring-angular-2#readme",
   "dependencies": {
     "angular2": "^2.0.0-beta.17",
+    "bootstrap": "^3.3.7",
     "es6-shim": "^0.35.1",
     "reflect-metadata": "^0.1.2",
     "rxjs": "^5.0.0-beta.6",
