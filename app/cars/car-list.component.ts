@@ -6,6 +6,10 @@ import {Component} from 'angular2/core';
 })
 export class CarListComponent {
   title: string = 'Vehicles Up For Grabs';
+  showImages: boolean = false;
+  imageWidth: number = 50;
+  imageMargin: number = 2;
+  listFilter: string = 'nissan';
   cars: any[] = [{
     "id": 1,
     "manufacturer": "Nissan",
@@ -25,4 +29,8 @@ export class CarListComponent {
     "rating": 4.2,
     "imageUrl": "http://nissan-infiniti.com/wp-content/uploads/2015/04/2016-Infiniti-Q50-front-view.jpg"
   }];
+
+  toggleShowingImages(): void {
+    this.showImages = !this.showImages;
+  }
 }
